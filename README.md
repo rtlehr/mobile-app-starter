@@ -31,21 +31,13 @@ Create a folder named `.devcontainer` at the root of your repo, with a single fi
 - **Node 20** satisfies Capacitor v5+ requirements.  
 - Installs Angular CLI, the new Ionic CLI (`@ionic/cli`), Capacitor CLI, and the `sqlite3` binary.  
 - Forwards ports **8100** (Ionic serve) and **4200** (pure Angular).
-
-Commit and push:
-
-```bash
-git add .devcontainer/devcontainer.json
-git commit -m "chore: add devcontainer (Node20 + Ionic/Angular/Capacitor/SQLite)"
-git push origin main
+- 
 ```
 
-## 3. Rebuild the Codespace
+## 3. Build the Codespace
 
-After pushing the `.devcontainer` folder, rebuild so Codespaces picks up the new settings:
 
-- **In VS Code:** `Ctrl+Shift+P` → **Codespaces: Rebuild Container** → Confirm.  
-- **In GitHub UI:** Repo → **Codespaces** tab → **…** on your codespace → **Rebuild Container**.
+
 
 ## 4. Verify the Ionic CLI version
 
