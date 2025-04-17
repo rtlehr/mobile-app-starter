@@ -90,7 +90,10 @@ npx cap sync
 ## 7. Add native platforms
 
 ```bash
+npm install @capacitor/android
 npx cap add android
+
+npm install @capacitor/ios
 npx cap add ios
 ```
 
