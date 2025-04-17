@@ -1,9 +1,7 @@
+// .devcontainer/devcontainer.json
 {
   "name": "Ionic‑Angular Codespace",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": "."
-  },
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:16",
   "postCreateCommand": "npm install -g @angular/cli ionic @capacitor/cli sqlite3",
   "forwardPorts": [8100, 4200],
   "remoteUser": "node"
