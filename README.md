@@ -32,12 +32,8 @@ Create a folder named `.devcontainer` at the root of your repo, with a single fi
 - Installs Angular CLI, the new Ionic CLI (`@ionic/cli`), Capacitor CLI, and the `sqlite3` binary.  
 - Forwards ports **8100** (Ionic serve) and **4200** (pure Angular).
 - 
-```
 
 ## 3. Build the Codespace
-
-
-
 
 ## 4. Verify the Ionic CLI version
 
