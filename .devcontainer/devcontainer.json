@@ -1,0 +1,11 @@
+{
+  "name": "Ionic‑Angular Codespace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:16",
+  "features": {
+    "ghcr.io/devcontainers/features/android:1": {},
+    "ghcr.io/devcontainers/features/sqlite:1": {}
+  },
+  "postCreateCommand": "npm install -g @angular/cli ionic @capacitor/cli",
+  "forwardPorts": [8100, 4200],
+  "remoteUser": "node"
+}
