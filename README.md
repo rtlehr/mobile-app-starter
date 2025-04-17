@@ -53,13 +53,14 @@ In the terminal:
 
 ```bash
 ionic --version
-# should show 8.x.x or later
+# should show 7.x.x or later
 ```
 
 If it’s older, run:
 
 ```bash
-npm install -g @ionic/cli@latest
+npm uninstall -g ionic
+npm i -g @ionic/cli
 ```
 
 ## 5. Scaffold the Ionic Angular app
